@@ -1,0 +1,1107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    height: 150vh;
+    background-image: url('./imgs/banner2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 70px;
+}
+
+nav{
+    width: 100%;
+    height: 45vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .nothing{
+    display: none;
+
+}
+
+nav .logo{
+    width: 150px;
+    height: 4em;
+    margin-top: 25px;
+}
+
+nav .logo img{
+    width: 150px;
+}
+
+nav ul{
+    width: 55%;
+    height: 2em;
+    /* background-color: aqua; */
+    display: flex;
+    margin-top: 45px;
+
+
+}
+
+nav ul .ul1,.ul2{
+    display: flex;
+}
+
+nav ul ol{
+    display: flex;
+}
+
+nav ul img{
+    width: 30px;
+    height: 30px;
+    margin: 8px 24px;
+}
+
+nav ul li{
+    font-size: 16pxpx;
+    padding: 8px 21px;
+}
+
+nav ul li a{
+    color :white;
+}
+
+nav ul li:hover{
+    border-radius: 20px;
+    background-color: #0ed1f0;
+    transition: all 0.5s ease-in-out;
+}
+
+nav ul .active{
+    border-radius: 20px;
+    background-color: #0ed1f0;
+}
+
+.maintext{
+    width: 100%;
+    height: 80vh;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+.maintext span{
+    font-size: 75px;
+    color: #0ed1f0;
+}
+
+.maintext h1{
+    color: #fff;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.maintext p{
+    line-height: 1.4;
+    color: #fff;
+    font-size: 22px;
+    margin: 10px 100px;
+    margin-bottom: 50px;
+}
+
+.maintext button{
+    width: 280px;
+    height: 55px;
+    font-size: 18px;
+    color: black;
+    border: none;
+    margin-left: 9px;
+    background: #fff;
+    border-radius: 30px;
+
+}
+
+.maintext button a{
+    color: black;
+}
+
+.maintext button:hover{
+    background-color: #0ed1f0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.maintext button:hover a{
+    color: white;
+}
+
+/* ********** ********** /header********** ********** */
+/* ********** ********** /header********** ********** */
+/* ********** ********** /header********** ********** */
+
+.about{
+    width: 100%;
+    height: 150vh;
+    background-color: aqua;
+    background-image: url('./imgs/about_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.middle-div{
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    /* background-color: red; */
+    top: -110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.m1{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 0 0 1px 0.5px rgba(0, 0, 0, 0.5);
+}
+
+.m1 a{
+    color: #0ed1f0;
+}
+
+.about-wrapper{
+    width: 85%;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text{
+    width: 50%;
+    height: 100vh;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-text h1{
+    font-size: 72px;
+
+}
+
+.about-text p{
+    font-size: 20px;
+    margin: 40px 0;
+}
+
+.read_more{
+    width: 180px;
+    height: 50px;
+    background-color: black;
+    border: none;
+    border-radius: 30px
+    
+}
+
+.read_more a{
+    color: white;
+    font-size: 18px;
+}
+
+.read_more:hover{
+    background-color: #0ed1f0;
+}
+.about-img{
+    width: 50%;
+    height: 100vh;
+    /* background-color: aqua; */
+}
+
+.about-img img{
+    width: 95%;
+}
+
+/* ********** ********** /about ********** ********** */
+/* ********** ********** /about ********** ********** */
+/* ********** ********** /about ********** ********** */
+
+.concert{
+    width: 100vw;
+    height: 160vh;
+}
+
+.concert-wrapper{
+    width: 85%;
+    height: 160vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.concert-text{
+    width: 38%;
+    height: 130vh;
+}
+
+.concert-text h1{
+    font-size: 85px;
+    font-weight: 10px;
+}
+
+.concert-text p{
+    font-size: 22px;
+    line-height: 1.7;
+    margin-right: 20px;
+}
+
+.concert-img{
+    width: 62%;
+    height: 130vh;
+}
+
+.concert-img img{
+    width: 100%;
+    height: 130vh;
+}
+
+/* ********** ********** /concert ********** ********** */
+/* ********** ********** /concert ********** ********** */
+/* ********** ********** /concert ********** ********** */
+
+.gallery{
+    width: 100vw;
+    height: 130vh;
+    background-color: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-wrapper{
+    width: 85%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-img1,.gallery-img2,.gallery-text{
+    width: 390px;
+    height: 90vh;
+}
+.gallery-img1 img,.gallery-img2 img{
+    margin-bottom: 20px;
+    width: 350px;
+}
+
+.gallery-text {
+    width: 350px;
+    text-align: right;
+    line-height: 1.5;
+}
+
+.gallery-text h1{
+    font-size: 70px;
+    margin: 30px 0;
+}
+
+.gallery-text p{
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+
+/* ********** ********** /gallery ********** ********** */
+/* ********** ********** /gallery ********** ********** */
+/* ********** ********** /gallery ********** ********** */
+footer{
+    width: 100wv;
+    height: 160vh;
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.footer__wrapper{
+    width: 85%;
+    height: 160vh;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+form{
+    width: 650px;
+    height: 85vh;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    margin-bottom: 30px;
+}
+
+form h1{
+    font-size: 75px;
+    color: white;
+}
+
+form input{
+    width: 100%;
+    height: 50px;
+}
+
+form textarea{
+    width: 100%;
+    /* max-width: 100%;
+    min-width: 100%; */
+    height: 100px;
+}
+
+form textarea::placeholder{
+    font-size: 22px;
+    padding: 30px;
+}
+
+form button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    font-size: 19px;
+    background-color: white;
+}
+
+form button:hover{
+    background-color: #0fb0d3;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    color : white;
+
+}
+
+.email__div{
+    width: 100%;
+    height: 55vh;
+    background-color: #161616;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email__div .email{
+    width: 750px;
+    height: 100px;
+}
+
+
+.email__div .email h2{
+    font-size: 23px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.email__div .email .email__wrapper{
+    width: 100%;
+    height: 55px;
+    background-color: white;
+    position: relative;
+}
+
+.email__div .email input{
+    width: 65%;
+    height: 54px;
+    margin-right: 0;
+    border: none;
+    outline: none;
+    margin-left: 25px;
+}
+
+.email__div .email input::placeholder{
+    font-size: 18px;
+    /* padding: 10px 20px; */
+}
+
+.email__div .email button{
+    width: 29%;
+    height: 55px;
+    margin-left: 0;
+    border: none;
+    background-color: #0fb0d3;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.email__div .email button:hover{
+    color: #0fb0d3;
+    background-color: rgb(228, 217, 217);
+    transition: all 0.5s ease-in-out;
+}
+
+.email__div ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+    width: 600px;
+    height: 60px;
+}
+
+.email__div ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    /* background-color: red; */
+    color: white;
+    margin-top: 10px;
+}
+
+
+.email__div ul li a img{
+   width: 25px;
+   margin: 20px;
+   /* background-color: yellow; */
+}
+
+
+.email__div ul li a i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #0fb0d3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #161616;
+    margin: 15px 10px;
+}
+
+.email__div ul li a i:hover{
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+footer .footer__div{
+    width: 100%;
+    height: 80px;
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer__wrapper .footer__div p{
+    font-size: 20px;
+    color: white;
+}
+
+footer .footer__wrapper .footer__div a{
+    color: white;
+
+}
+
+footer .footer__wrapper .footer__div a:hover{
+    color: #0fb0d3;
+    transition: all 0.5s ease-in-out;
+}
+
+/* ********** ********** /footer ********** ********** */
+/* ********** ********** /footer ********** ********** */
+/* ********** ********** /footer ********** ********** */
+
+@media screen and (max-width:1200px) { 
+
+    body{
+        overflow-x: hidden;
+    }
+
+    header{
+        height: 170vh;
+    }   
+    nav{
+      
+        justify-content: center;
+    }
+    
+    .concert-text h1{
+        font-size: 72px;
+    }
+    
+    .concert-text p{
+        font-size: 21px;
+        line-height: 1.5;
+    }
+
+    .gallery{
+        height: 130vh;
+    }
+    
+    .gallery-wrapper{
+        height: 95vh;
+    }
+    
+    .gallery-img1,.gallery-img2,.gallery-text{
+        width: 350px;
+        height: 85vh;
+    }
+    .gallery-img1 img,.gallery-img2 img{
+        margin-bottom: 10px;
+        width: 310px;
+    }
+    
+    .gallery-text h1{
+        font-size: 65px;
+        margin: 28px 0;
+    }
+
+}
+
+@media screen and (max-width:991px) { 
+    
+    body{
+        overflow-x: hidden;
+    }
+    
+    nav{
+        justify-content: start;
+        margin-left: 50px;
+    }
+
+    nav .logo{
+        margin-top: 19px;
+        margin-right: 20px;
+    }
+    
+    nav ul img{
+      display: none;
+    }
+    
+    nav ul li{
+        font-size: 12px;
+    }
+    .maintext h1{
+       font-size: 80px;
+    }
+
+    .maintext p{
+        line-height: 1.2;
+        color: #fff;
+        font-size: 20px;
+        margin: 10px 140px;
+        margin-bottom: 50px;
+    }
+
+    .about-wrapper{
+        width: 75%;
+        justify-content: space-between;
+    }
+    
+    .about-text{
+        width: 42%;
+    }
+
+    .about-img{
+        width: 42%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-img img{
+        width: 95%;
+    }
+    
+    .concert-wrapper{
+        width: 95%;
+        margin-left: 10px;
+    }
+    
+    .concert-text{
+        width: 45%;
+    }
+    
+    .concert-text h1{
+        font-size: 65px;
+    }
+    
+    .concert-text p{
+        font-size: 19px;
+        line-height: 1.4;
+        margin-right: 10px;
+    }
+    
+    .concert-img{
+        width: 55%;
+    }
+    
+    .concert-img img{
+        width: 100%;
+        height: 110vh;
+    }
+    
+    .gallery-wrapper{
+        width: 85%;
+        height: 90vh;
+    }
+    
+    .gallery-img1,.gallery-img2,.gallery-text{
+        width: 380px;
+        height: 85vh;
+    }
+
+    .gallery-img1,.gallery-img2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gallery-img1 img,.gallery-img2 img{
+        width: 250px;
+    }
+    
+    .gallery-text h1{
+        font-size: 60px;
+        margin: 25px 0;
+    }
+    
+    .gallery-text p{
+        font-size: 19px;
+    }
+
+    form h1{
+        font-size: 55px;;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+
+    header{
+        height: 150vh;
+    }
+    
+    nav{
+        width: 100%;
+        height: 55vh;
+        /* background-color: red; */
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        /* align-items: center; */
+        margin-left: 1px;
+
+    }
+
+    nav .nothing{
+        width: 300px;
+        height: 41px;
+        background-color: #0ed1f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 1px;
+        position: relative;
+        
+    }
+
+    nav .nothing li{
+        position: absolute;
+        right:5%;
+    }
+
+    nav .nothing li a{
+        font-size: 20px;
+    }
+
+    nav .logo{
+        width: 120px;
+        height: 4em;
+        /* background-color: green; */
+        margin-top: 20px;
+        margin-right: 100px;
+    }
+    
+    nav ul{
+        width: 55%;
+        height: 2em;
+        /* background-color: aqua; */
+        display: block;
+        margin-top: 45px;
+    }
+
+    nav .not{
+        display: none;
+    }
+    
+    .maintext span{
+        font-size: 85px;
+    }
+    
+    .maintext h1{
+        font-size: 52px;
+    }
+    
+    .maintext p{
+        line-height: 1.4;
+        color: #fff;
+        font-size: 20px;
+        margin: 10px 60px;
+        margin-bottom: 50px;
+    }
+    
+    .maintext button{
+        width: 200px;
+        height: 45px;
+        font-size: 16px;
+        color: black;
+        border: none;
+        margin-left: 9px;
+        background: #fff;
+        border-radius: 30px;
+    
+    }
+
+    .about{
+        width: 100%;
+        height: 200vh;
+    }
+
+    .middle-div{
+        top: -40px;
+    }
+    
+    .about-wrapper{
+        width: 85%;
+        height: 180vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-text{
+        width: 89%;
+
+    }
+    
+    .about-text h1{
+        font-size: 67px;
+    
+    }
+    
+    .about-img{
+        width: 90%;
+        height: 100vh;
+        /* background-color: aqua; */
+    }
+    
+    .about-img img{
+        width: 100%;
+    }
+    
+    .concert{
+        width: 100vw;
+        height: 220vh;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .concert-wrapper{
+        width: 95%;
+        height: 220vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1px;
+
+    }
+    
+    .concert-text{
+        width: 100%;
+        height: 80vh;
+        margin-top: 50px;
+    }
+    
+    .concert-text h1{
+        font-size: 50px;
+        font-weight: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .concert-text p{
+        font-size: 20px;
+        line-height: 1.5;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .concert-img{
+        width: 100%;
+        height: 130vh;
+    }
+
+    .gallery{
+        height: 370vh;
+    }
+    
+    .gallery-wrapper{
+        width: 85%;
+        height: 325vh;
+        flex-direction: column;
+    }
+    
+    .gallery-img1,.gallery-img2,.gallery-text{
+        width: 500px;
+        height: 130vh;
+    }
+
+    .gallery-img1 img,.gallery-img2 img{
+        margin-bottom: 20px;
+        width: 500px;
+    }
+    
+    .gallery-text {
+        width: 500px;
+        height: 65vh;
+    }
+    
+    form{
+        width: 500px;
+        height: 85vh;
+    }
+    
+    form h1{
+        margin-top: 10px;
+        font-size: 50px;
+        font-weight: normal;
+    }
+    
+    form button{
+        width: 180px;
+        height: 45px;
+    }
+    
+    .email__div{
+        width: 85%;
+        height: 55vh;
+    }
+    
+    .email__div .email{
+        width: 500px;
+    }
+    
+    .email__div ul li{
+        font-size: 17px;
+    }
+    
+    .email__div ul li a img{
+       width: 23px;
+       margin: 20px;
+    }
+    
+    .email__div ul li a i{
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+
+    header{
+        height: 100vh;
+    }
+    
+    nav{
+        width: 100%;
+        height: 32vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+    }
+
+    nav .nothing{
+        width: 95%;
+    }
+
+    nav .logo{
+        width: 120px;
+        height: 4em;
+        /* background-color: green; */
+        margin-top: 10px;
+        margin-right: 50px;
+    }
+    
+
+    nav .not{
+        display: none;
+    }
+    
+    .maintext span{
+        font-size: 55px;
+    }
+    
+    .maintext h1{
+        font-size: 35px;
+    }
+    
+    .maintext p{
+        line-height: 1.4;
+        color: #fff;
+        font-size: 18px;
+        margin: 10px 10px;
+        margin-bottom: 50px;
+    }
+    
+    .maintext button{
+        width: 150px;
+        height: 35px;
+        font-size: 11px;
+    
+    }
+
+    .middle-div{
+        top: -110px;
+    }
+    
+    .about-wrapper{
+        width: 99%;
+        height: 180vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .concert{
+        width: 100vw;
+        height: 200vh;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .concert-wrapper{
+        width: 85%;
+        height: 180vh;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1px;
+
+    }
+    
+    .concert-img{
+        width: 130%;
+        height: 80vh;
+    }
+
+    .concert-img img{
+        margin-top: 80px;
+        height: 80vh;
+    }
+
+    .email__div{
+        width: 118%;
+        height: 55vh;    }
+    
+    .email__div .email{
+        width: 400px;
+        margin-right: 100px;
+    }
+
+    .email__div .email .email__wrapper{
+        width: 100%;
+        height: 55px;
+        position: relative;
+    }
+    
+    .email__div .email input{
+        width: 75%;
+
+    }
+    
+    .email__div .email input::placeholder{
+        font-size: 14px;
+    }
+    
+    .email__div .email button{
+        width: 25%;
+        font-size: 17px;
+    }
+    
+    .email__div ul li{
+        font-size: 17px;
+    }
+    
+    .email__div ul li a img{
+       width: 23px;
+       margin: 20px;
+    }
+    
+    .email__div ul li a i{
+        width: 40px;
+        height: 40px;
+        margin-left: 1px;
+    }
+    footer .footer__div{
+        width: 120%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
